@@ -5,6 +5,7 @@
 [![Engine: Modrinth v2](https://img.shields.io/badge/API-Modrinth%20v2-8b5cf6.svg)](https://modrinth.com)
 [![Architect: Saksham](https://img.shields.io/badge/Architect-Saksham-10b981.svg)](https://github.com/OneSaksham)
 [![Version: v1.0.0](https://img.shields.io/badge/Release-v1.0.0-34d399.svg)](https://github.com/OneSaksham/modvault/releases)
+[![Downloads](https://img.shields.io/github/downloads/OneSaksham/modvault/total.svg?style=flat&color=10b981)](https://somsubhra.github.io/github-release-stats/?username=OneSaksham&repository=modvault)
 
 ModVault is a desktop mod management engine and FPS optimization suite for Minecraft. Engineered with zero hardcoded paths, recursive Modrinth v2 API dependency resolution, and mathematical Golden Ratio (`phi = 1.618`) design aesthetics.
 
