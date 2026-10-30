@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://modvault.app/sitemap.xml
+Sitemap: https://modvault-inky-nu.vercel.app/sitemap.xml
 
