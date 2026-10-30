@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "ModVault — High-Performance Minecraft Mod Engine & FPS Optimizer with Universal Launcher Detection",
   "main": "dist-electron/main.js",
-  "author": "Saksham (https://github.com/saksham-kumar1621)",
+  "author": "Saksham (https://github.com/OneSaksham)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saksham-kumar1621/ModVault.git"
+    "url": "https://github.com/OneSaksham/modvault.git"
   },
   "bugs": {
-    "url": "https://github.com/saksham-kumar1621/ModVault/issues"
+    "url": "https://github.com/OneSaksham/modvault/issues"
   },
-  "homepage": "https://github.com/saksham-kumar1621/ModVault#readme",
+  "homepage": "https://github.com/OneSaksham/modvault#readme",
   "keywords": [
     "minecraft",
     "mod-installer",
