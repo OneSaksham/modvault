@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "landing",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/tlauncher",
+      "destination": "/tlauncher-mod-installer.html"
+    },
+    {
+      "source": "/tlauncher-mod-installer",
+      "destination": "/tlauncher-mod-installer.html"
+    },
+    {
+      "source": "/fps-booster",
+      "destination": "/fps-booster-minecraft.html"
+    },
+    {
+      "source": "/fps-booster-minecraft",
+      "destination": "/fps-booster-minecraft.html"
+    }
+  ]
+}
+
