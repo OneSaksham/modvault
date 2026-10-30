@@ -30,7 +30,7 @@ git commit -m "feat: initial production release of ModVault v1.0.0"
 
 echo.
 echo [4/4] Remote Repository Setup:
-set "DEFAULT_REMOTE=https://github.com/saksham-kumar1621/Minecraft-Mod-Installer.git"
+set "DEFAULT_REMOTE=https://github.com/saksham-kumar1621/ModVault.git"
 echo Default Remote: !DEFAULT_REMOTE!
 echo.
 set /p "USER_REMOTE=Enter GitHub repository URL (press Enter to use default): "

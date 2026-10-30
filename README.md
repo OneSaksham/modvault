@@ -4,7 +4,7 @@
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-06b6d4.svg)](#)
 [![Engine: Modrinth v2](https://img.shields.io/badge/API-Modrinth%20v2-8b5cf6.svg)](https://modrinth.com)
 [![Architect: Saksham](https://img.shields.io/badge/Architect-Saksham-10b981.svg)](https://github.com/saksham-kumar1621)
-[![Version: v1.0.0](https://img.shields.io/badge/Release-v1.0.0-34d399.svg)](https://github.com/saksham-kumar1621/Minecraft-Mod-Installer/releases)
+[![Version: v1.0.0](https://img.shields.io/badge/Release-v1.0.0-34d399.svg)](https://github.com/saksham-kumar1621/ModVault/releases)
 
 ModVault is a desktop mod management engine and FPS optimization suite for Minecraft. Engineered with zero hardcoded paths, recursive Modrinth v2 API dependency resolution, and mathematical Golden Ratio (`phi = 1.618`) design aesthetics.
 
@@ -78,7 +78,7 @@ ModVault includes a standalone high-converting landing page and dedicated SEO ar
 ## Getting Started
 
 ### For Gamers (Windows Installer)
-1. Navigate to [GitHub Releases](https://github.com/saksham-kumar1621/Minecraft-Mod-Installer/releases/latest).
+1. Navigate to [GitHub Releases](https://github.com/saksham-kumar1621/ModVault/releases/latest).
 2. Download `ModVault Setup 1.0.0.exe`.
 3. Run the installer. ModVault will automatically detect your installed launchers and active versions.
 
@@ -92,8 +92,8 @@ ModVault includes a standalone high-converting landing page and dedicated SEO ar
 #### Installation Steps
 ```bash
 # Clone repository
-git clone https://github.com/saksham-kumar1621/Minecraft-Mod-Installer.git
-cd Minecraft-Mod-Installer
+git clone https://github.com/saksham-kumar1621/ModVault.git
+cd ModVault
 
 # Install dependencies
 npm install

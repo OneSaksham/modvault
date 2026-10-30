@@ -15,8 +15,8 @@ Thank you for your interest in contributing to ModVault. We welcome contribution
 
 1. **Fork and Clone**:
    ```bash
-   git clone https://github.com/<your-username>/Minecraft-Mod-Installer.git
-   cd Minecraft-Mod-Installer
+   git clone https://github.com/<your-username>/ModVault.git
+   cd ModVault
    ```
 
 2. **Install Dependencies**:

@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saksham-kumar1621/Minecraft-Mod-Installer.git"
+    "url": "https://github.com/saksham-kumar1621/ModVault.git"
   },
   "bugs": {
-    "url": "https://github.com/saksham-kumar1621/Minecraft-Mod-Installer/issues"
+    "url": "https://github.com/saksham-kumar1621/ModVault/issues"
   },
-  "homepage": "https://github.com/saksham-kumar1621/Minecraft-Mod-Installer#readme",
+  "homepage": "https://github.com/saksham-kumar1621/ModVault#readme",
   "keywords": [
     "minecraft",
     "mod-installer",
