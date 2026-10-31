@@ -113,9 +113,12 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "ModVault",
-    "operatingSystem": "Windows 10, Windows 11",
+    "operatingSystem": "Windows 10, Windows 11 (64-bit)",
     "applicationCategory": "GameApplication",
+    "fileSize": "92.67 MB",
+    "datePublished": "2026-10-30",
     "softwareVersion": "1.0.0",
+    "downloadUrl": "https://github.com/OneSaksham/modvault/releases/download/v1.0.0/ModVault-Setup-1.0.0.exe",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -174,36 +177,35 @@
     </div>
   </aside>
 
-  <!-- STICKY HEADER NAVIGATION (Stitch Design System Layout) -->
+  <!-- STICKY HEADER NAVIGATION (Google Stitch Design System Standards) -->
   <header class="sticky top-0 z-50 glass-nav border-b border-vault-border transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4 lg:gap-8 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4 w-full">
       
-      <!-- Brand Logo Cluster -->
-      <a href="#" class="flex items-center gap-3 shrink-0 group">
+      <!-- Brand Identity Cluster -->
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 shrink-0 group focus:outline-none focus-visible:ring-2 focus-visible:ring-vault-emerald rounded-lg" aria-label="ModVault Home">
         <img src="./logo.svg" alt="ModVault Shield Logo" class="w-8 h-8 sm:w-9 sm:h-9 object-contain drop-shadow-[0_0_12px_rgba(16,185,129,0.35)] group-hover:scale-105 transition-transform">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-lg text-vault-highlight tracking-tight group-hover:text-vault-emerald transition-colors">ModVault</span>
-          <span class="bg-vault-surfaceCard border border-vault-border text-vault-emerald font-mono text-[11px] px-2 py-0.5 rounded">v1.0.0</span>
-          <span class="hidden 2xl:inline-flex bg-vault-emerald/10 text-vault-emerald border border-vault-emerald/30 font-mono text-[10px] px-2 py-0.5 rounded tracking-wider uppercase">CLIENT ENGINE</span>
+          <span class="font-extrabold text-lg sm:text-xl text-vault-highlight tracking-tight group-hover:text-vault-emerald transition-colors">ModVault</span>
+          <span class="bg-vault-surfaceCard border border-vault-border text-vault-emerald font-mono text-[11px] px-2 py-0.5 rounded-full font-medium">v1.0.0</span>
         </div>
       </a>
 
-      <!-- Desktop Nav Links (Spaced evenly with zero collision) -->
-      <nav class="hidden xl:flex items-center gap-6 text-sm font-medium">
-        <a href="#comparison" class="text-vault-silver hover:text-vault-emerald transition-colors">Architecture</a>
-        <a href="#benchmarks" class="text-vault-silver hover:text-vault-emerald transition-colors">Benchmarks</a>
-        <a href="#launchers" class="text-vault-silver hover:text-vault-emerald transition-colors">Launchers</a>
-        <a href="#presets" class="text-vault-silver hover:text-vault-emerald transition-colors">Packs</a>
-        <a href="#creator" class="text-vault-silver hover:text-vault-emerald transition-colors">Creator</a>
-        <a href="#faq" class="text-vault-silver hover:text-vault-emerald transition-colors">FAQ</a>
+      <!-- Centered Desktop Nav Links (Google Stitch Spacing & Negative Space) -->
+      <nav class="hidden lg:flex items-center justify-center gap-6 xl:gap-8 flex-1 text-xs xl:text-sm font-medium">
+        <a href="#comparison" class="text-vault-silver hover:text-vault-emerald transition-colors py-1 focus:outline-none focus-visible:text-vault-emerald">Architecture</a>
+        <a href="#benchmarks" class="text-vault-silver hover:text-vault-emerald transition-colors py-1 focus:outline-none focus-visible:text-vault-emerald">Benchmarks</a>
+        <a href="#launchers" class="text-vault-silver hover:text-vault-emerald transition-colors py-1 focus:outline-none focus-visible:text-vault-emerald">Launchers</a>
+        <a href="#presets" class="text-vault-silver hover:text-vault-emerald transition-colors py-1 focus:outline-none focus-visible:text-vault-emerald">Packs</a>
+        <a href="#security" class="text-vault-silver hover:text-vault-emerald transition-colors py-1 focus:outline-none focus-visible:text-vault-emerald">Security</a>
+        <a href="#faq" class="text-vault-silver hover:text-vault-emerald transition-colors py-1 focus:outline-none focus-visible:text-vault-emerald">FAQ</a>
         
-        <!-- Guides Dropdown with Stitch Pill Styling -->
+        <!-- Guides Dropdown with Stitch Pill Card -->
         <div class="relative group">
-          <button type="button" class="flex items-center gap-1 text-vault-cyan hover:text-vault-cyanBright transition-colors font-medium">
+          <button type="button" class="flex items-center gap-1 text-vault-cyan hover:text-vault-cyanBright transition-colors font-medium py-1 focus:outline-none focus-visible:text-vault-cyanBright" aria-haspopup="true" aria-expanded="false">
             <span>Guides</span>
             <span class="material-symbols-outlined text-[16px] group-hover:rotate-180 transition-transform duration-200">expand_more</span>
           </button>
-          <div class="absolute left-1/2 -translate-x-1/2 mt-2 w-60 bg-vault-surfaceCard/95 backdrop-blur-xl border border-vault-border rounded-xl shadow-2xl p-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-50">
+          <div class="absolute left-1/2 -translate-x-1/2 mt-2 w-64 bg-vault-surfaceCard/95 backdrop-blur-xl border border-vault-border rounded-xl shadow-2xl p-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-50">
             <a href="./tlauncher-mod-installer" class="block px-3 py-2.5 rounded-lg hover:bg-vault-surface text-xs text-vault-highlight hover:text-vault-emerald transition-all">
               <span class="font-semibold block text-vault-highlight">TLauncher Mod Guide</span>
               <span class="text-vault-muted text-[11px]">Fix exit code 1 & auto-detect paths</span>
@@ -218,45 +220,47 @@
 
       <!-- Action Cluster -->
       <div class="flex items-center gap-2.5 sm:gap-3 shrink-0">
-        <!-- Live Downloads Badge (Visible on lg+) -->
+        <!-- Live Verified Downloads Badge (Visible on xl+) -->
         <a href="https://somsubhra.github.io/github-release-stats/?username=OneSaksham&repository=modvault" target="_blank" rel="noopener noreferrer" title="Live Verified GitHub Release Downloads"
-           class="hidden lg:inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded-lg text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
+           class="hidden xl:inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded-lg text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
           <span class="w-1.5 h-1.5 rounded-full bg-vault-emerald animate-pulse"></span>
-          <span class="text-vault-emerald font-semibold live-download-count">5</span>
+          <span class="text-vault-emerald font-semibold live-download-count">7</span>
           <span class="text-vault-muted text-[11px]">downloads</span>
         </a>
 
-        <!-- GitHub Creator Badge -->
+        <!-- GitHub Creator Badge (Visible on sm+) -->
         <a href="https://github.com/OneSaksham" target="_blank" rel="noopener noreferrer" 
-           class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded-lg text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
+           class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded-lg text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all" title="Creator GitHub">
           <span class="material-symbols-outlined text-[15px] text-vault-emerald">code</span>
           <span>Saksham</span>
           <span class="bg-vault-void px-1.5 py-0.5 rounded text-vault-emerald border border-vault-border text-[10px]">GitHub</span>
         </a>
 
-        <!-- Download Action Button -->
+        <!-- Download Action CTA -->
         <a href="#download" 
            class="bg-vault-emerald hover:bg-vault-emeraldBright text-vault-void font-bold text-xs sm:text-sm px-3.5 sm:px-4 py-2 rounded-lg flex items-center gap-1.5 sm:gap-2 shadow-glow-emerald active:scale-95 transition-all">
           <span class="material-symbols-outlined text-[18px]">download</span>
           <span>Download <span class="hidden sm:inline">.EXE</span></span>
         </a>
 
-        <!-- Mobile / Tablet Hamburger Toggle Button -->
-        <button type="button" id="mobileMenuBtn" onclick="toggleMobileMenu()" class="xl:hidden p-2 rounded-lg bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border text-vault-silver hover:text-vault-highlight transition-all" aria-label="Toggle Navigation Menu">
+        <!-- Mobile / Tablet Hamburger Toggle Button (Visible below lg) -->
+        <button type="button" id="mobileMenuBtn" onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border text-vault-silver hover:text-vault-highlight transition-all" aria-label="Toggle Navigation Menu">
           <span class="material-symbols-outlined text-[20px]" id="mobileMenuIcon">menu</span>
         </button>
       </div>
     </div>
 
     <!-- Mobile Navigation Drawer -->
-    <div id="mobileMenu" class="hidden xl:hidden bg-vault-base/98 backdrop-blur-2xl border-b border-vault-border px-4 py-5 space-y-4">
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs font-medium">
+    <div id="mobileMenu" class="hidden lg:hidden bg-vault-base/98 backdrop-blur-2xl border-b border-vault-border px-4 py-5 space-y-4">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-medium">
         <a href="#comparison" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Architecture</a>
         <a href="#benchmarks" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Benchmarks</a>
         <a href="#launchers" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Launchers</a>
         <a href="#presets" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Packs</a>
+        <a href="#security" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Security</a>
         <a href="#creator" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Creator</a>
         <a href="#faq" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">FAQ</a>
+        <a href="#download" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-emerald/15 text-vault-emerald border border-vault-emerald/30 font-semibold text-center">Get v1.0.0</a>
       </div>
       <div class="pt-3 border-t border-vault-border space-y-2">
         <div class="text-[11px] font-mono text-vault-muted uppercase tracking-wider px-1">Dedicated Guides</div>
@@ -310,7 +314,7 @@
                  class="modvault-download-btn bg-vault-emerald hover:bg-vault-emeraldBright text-vault-void font-bold text-sm sm:text-base px-6 py-3.5 rounded-lg flex items-center gap-3 shadow-glow-emerald active:scale-95 transition-all">
                 <span class="material-symbols-outlined text-[22px]">download_for_offline</span>
                 <span>Download ModVault v1.0.0</span>
-                <span class="font-mono text-xs bg-vault-void/20 text-vault-void px-2 py-0.5 rounded font-semibold">92.6 MB</span>
+                <span class="font-mono text-xs bg-vault-void/20 text-vault-void px-2 py-0.5 rounded font-semibold">92.67 MB</span>
               </a>
 
               <a href="https://github.com/OneSaksham" target="_blank" rel="noopener noreferrer"
@@ -335,7 +339,7 @@
             <!-- Architecture Badges -->
             <div class="pt-4 border-t border-vault-border flex flex-wrap items-center gap-3 font-mono text-xs text-vault-silver">
               <span class="flex items-center gap-1.5 bg-vault-surface px-3 py-1 rounded border border-vault-border">
-                <span class="material-symbols-outlined text-[14px] text-vault-emerald">check_circle</span> Electron 30 + Vite + TS
+                <span class="material-symbols-outlined text-[14px] text-vault-emerald">check_circle</span> Electron 34 + Vite 6 + React 19 + TS 5.7
               </span>
               <span class="flex items-center gap-1.5 bg-vault-surface px-3 py-1 rounded border border-vault-border">
                 <span class="material-symbols-outlined text-[14px] text-vault-cyan">security</span> Context Isolation Secured
@@ -530,7 +534,7 @@
           </div>
           <div class="font-mono text-xs text-vault-silver flex items-center gap-2">
             <span class="w-2 h-2 rounded-full bg-vault-emerald"></span>
-            Hardware Rig Telemetry: 1,400+ community runs
+            Tested on Intel Core i5-8250U / Intel UHD 620 / MC 1.20.1 Fabric / Java 17
           </div>
         </div>
 
@@ -642,6 +646,47 @@
             </p>
           </div>
 
+        </div>
+
+        <!-- Reproducible Benchmark Specifications & Test Environment -->
+        <div class="mt-8 bg-vault-surfaceCard border border-vault-border rounded-xl p-6 font-mono text-xs">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 mb-4 border-b border-vault-border gap-2">
+            <div class="flex items-center gap-2 text-vault-highlight font-bold">
+              <span class="material-symbols-outlined text-vault-emerald text-[18px]">biotech</span>
+              <span>Documented Benchmark Hardware & Test Methodology</span>
+            </div>
+            <span class="text-vault-emerald bg-vault-emerald/10 border border-vault-emerald/30 px-2 py-0.5 rounded text-[11px]">
+              REPRODUCIBLE SPECIFICATION
+            </span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-vault-silver">
+            <div class="p-3 bg-vault-surfaceLow rounded border border-vault-border/60">
+              <div class="text-vault-muted text-[11px] mb-1">PROCESSOR / CPU</div>
+              <div class="text-vault-highlight font-semibold">Intel Core i5-8250U</div>
+              <div class="text-vault-muted text-[10px] mt-0.5">4 Cores / 8 Threads @ 1.60 - 3.40 GHz</div>
+            </div>
+            <div class="p-3 bg-vault-surfaceLow rounded border border-vault-border/60">
+              <div class="text-vault-muted text-[11px] mb-1">GRAPHICS / GPU</div>
+              <div class="text-vault-highlight font-semibold">Intel UHD 620 & GTX 1050</div>
+              <div class="text-vault-muted text-[10px] mt-0.5">1080p Full HD Resolution</div>
+            </div>
+            <div class="p-3 bg-vault-surfaceLow rounded border border-vault-border/60">
+              <div class="text-vault-muted text-[11px] mb-1">MEMORY & RUNTIME</div>
+              <div class="text-vault-highlight font-semibold">8 GB DDR4 / Java 17</div>
+              <div class="text-vault-muted text-[10px] mt-0.5">JVM Heap Allocation: -Xmx4G -Xms4G</div>
+            </div>
+            <div class="p-3 bg-vault-surfaceLow rounded border border-vault-border/60">
+              <div class="text-vault-muted text-[11px] mb-1">TEST METHODOLOGY</div>
+              <div class="text-vault-highlight font-semibold">Spark Profiler + MangoHud</div>
+              <div class="text-vault-muted text-[10px] mt-0.5">180s automated flight / 16 chunks</div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-vault-border/60 flex flex-wrap items-center justify-between text-vault-muted text-[11px] gap-2">
+            <span>Vanilla 1.20.1 Baseline: 28 FPS Avg | 14 FPS 1% Low | 18 GC Stalls/Min | 2.85 GB Heap</span>
+            <span class="text-vault-emerald font-semibold">ModVault Low-End Pack: 112 FPS Avg (+300%) | 82 FPS 1% Low (+485%) | 0 GC Stalls | 1.28 GB Heap (-55%)</span>
+          </div>
         </div>
 
         <!-- Read in-depth guide link -->
@@ -953,7 +998,7 @@
                 <a href="https://github.com/OneSaksham" target="_blank" rel="noopener noreferrer" 
                    class="bg-vault-surface hover:bg-vault-surfaceLow border border-vault-border text-vault-highlight px-4 py-2.5 rounded-lg font-mono text-xs flex items-center gap-2 transition-all">
                   <span class="material-symbols-outlined text-[18px] text-vault-emerald">code</span>
-                  <span>GitHub: @saksham-kumar1621</span>
+                  <span>GitHub: @OneSaksham</span>
                 </a>
 
                 <a href="https://www.instagram.com/one._saksham._/" target="_blank" rel="noopener noreferrer" 
@@ -994,6 +1039,141 @@
 
           </div>
 
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 6: SECURITY, PRIVACY & ZERO TELEMETRY AUDIT -->
+    <section class="py-20 border-b border-vault-border bg-vault-base relative overflow-hidden" id="security">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="font-mono text-xs text-vault-emerald uppercase tracking-widest bg-vault-surface px-3 py-1 rounded border border-vault-emerald/30">Verified Security & Transparency</span>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-vault-highlight mt-3">Built on Zero-Trust Local Sandboxing</h2>
+          <p class="text-sm sm:text-base text-vault-silver mt-2 leading-relaxed">
+            ModVault is engineered for players who value their privacy and system safety. We publish full source code, run in standard userland, and never log your game tokens or browsing activity.
+          </p>
+        </div>
+
+        <!-- 4 Security Pillars Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          
+          <div class="bg-vault-surfaceCard border border-vault-border rounded-xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-lg bg-vault-emerald/10 border border-vault-emerald/30 flex items-center justify-center text-vault-emerald mb-4">
+                <span class="material-symbols-outlined text-[22px]">privacy_tip</span>
+              </div>
+              <h3 class="font-bold text-base text-vault-highlight">0% Telemetry Guarantee</h3>
+              <p class="text-xs text-vault-silver mt-2 leading-relaxed">
+                Zero telemetry daemons, zero token loggers, zero advertising trackers. ModVault never transmits your personal data, credentials, or session tokens.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-vault-border text-vault-emerald font-mono text-[11px] font-semibold">
+              LOCAL SANDBOX ONLY
+            </div>
+          </div>
+
+          <div class="bg-vault-surfaceCard border border-vault-border rounded-xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-lg bg-vault-cyan/10 border border-vault-cyan/30 flex items-center justify-center text-vault-cyan mb-4">
+                <span class="material-symbols-outlined text-[22px]">lan</span>
+              </div>
+              <h3 class="font-bold text-base text-vault-highlight">Explicit Network Whitelist</h3>
+              <p class="text-xs text-vault-silver mt-2 leading-relaxed">
+                Network requests are strictly locked to official endpoints: <code class="font-mono text-vault-cyan text-[11px]">api.modrinth.com</code>, <code class="font-mono text-vault-cyan text-[11px]">cdn.modrinth.com</code>, and official GitHub Releases.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-vault-border text-vault-cyan font-mono text-[11px] font-semibold">
+              OFFICIAL CDNS / APIS
+            </div>
+          </div>
+
+          <div class="bg-vault-surfaceCard border border-vault-border rounded-xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-lg bg-vault-purple/10 border border-vault-purple/30 flex items-center justify-center text-vault-purple mb-4">
+                <span class="material-symbols-outlined text-[22px]">verified</span>
+              </div>
+              <h3 class="font-bold text-base text-vault-highlight">ScanRepo Verified</h3>
+              <p class="text-xs text-vault-silver mt-2 leading-relaxed">
+                Audited independently by ScanRepo with a Verdict of <strong>LOW RISK (14/100)</strong>. Verified clean of token stealers, trojans, obfuscation, or backdoor exploits.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-vault-border font-mono text-[11px]">
+              <a href="https://www.scanrepo.dev/scan/github/OneSaksham/modvault" target="_blank" rel="noopener noreferrer" class="text-vault-purple hover:underline font-semibold flex items-center gap-1">
+                View Scan Audit <span class="material-symbols-outlined text-[13px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-vault-surfaceCard border border-vault-border rounded-xl p-6 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-lg bg-vault-amber/10 border border-vault-amber/30 flex items-center justify-center text-vault-amber mb-4">
+                <span class="material-symbols-outlined text-[22px]">lock_open</span>
+              </div>
+              <h3 class="font-bold text-base text-vault-highlight">Standard Userland Rights</h3>
+              <p class="text-xs text-vault-silver mt-2 leading-relaxed">
+                ModVault does not require Administrator or elevated UAC privileges. It installs and operates entirely within user space (%LOCALAPPDATA%).
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-vault-border text-vault-amber font-mono text-[11px] font-semibold">
+              NO UAC ELEVATION
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Safe Sandboxing & Clean Removal Guide Card -->
+        <div class="bg-vault-surfaceCard border border-vault-border rounded-2xl p-6 sm:p-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            
+            <div class="space-y-4">
+              <div class="flex items-center gap-2 text-vault-emerald font-mono text-xs font-semibold">
+                <span class="material-symbols-outlined text-[18px]">shield</span>
+                <span>NON-DESTRUCTIVE FILE MANAGEMENT</span>
+              </div>
+              <h3 class="text-xl sm:text-2xl font-bold text-vault-highlight">Zero Risk to Your Existing Worlds</h3>
+              <p class="text-sm text-vault-silver leading-relaxed">
+                Unlike primitive installers that delete or overwrite files, ModVault toggles mods using standard <code class="font-mono text-vault-emerald bg-vault-surface px-1.5 py-0.5 rounded text-xs">.jar.disabled</code> states. Your saves, shaders, resource packs, and server profiles remain completely untouched.
+              </p>
+              <div class="flex flex-wrap gap-3 font-mono text-xs text-vault-silver pt-2">
+                <span class="flex items-center gap-1.5 bg-vault-surface px-2.5 py-1 rounded border border-vault-border">
+                  <span class="material-symbols-outlined text-[14px] text-vault-emerald">check</span> No World Directory Modifying
+                </span>
+                <span class="flex items-center gap-1.5 bg-vault-surface px-2.5 py-1 rounded border border-vault-border">
+                  <span class="material-symbols-outlined text-[14px] text-vault-emerald">check</span> Safe Rename Toggling
+                </span>
+              </div>
+            </div>
+
+            <!-- Transparent Installation and Clean Removal -->
+            <div class="bg-vault-surface p-5 rounded-xl border border-vault-border font-mono text-xs space-y-3">
+              <div class="flex justify-between items-center border-b border-vault-border pb-2 text-vault-muted">
+                <span>INSTALLATION & REMOVAL PERIMETER</span>
+                <span class="text-vault-emerald">TRANSPARENT</span>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="p-2.5 rounded bg-vault-surfaceLow border border-vault-border/50">
+                  <div class="text-vault-highlight font-semibold mb-0.5">Installation Target:</div>
+                  <div class="text-vault-cyan text-[11px] break-all select-all">%LOCALAPPDATA%\Programs\ModVault</div>
+                </div>
+                <div class="p-2.5 rounded bg-vault-surfaceLow border border-vault-border/50">
+                  <div class="text-vault-highlight font-semibold mb-0.5">Clean Uninstallation:</div>
+                  <div class="text-vault-silver text-[11px] leading-relaxed">
+                    Via Windows <strong>Settings > Apps > Installed apps > ModVault > Uninstall</strong>, or execute <code class="text-vault-emerald select-all">%LOCALAPPDATA%\Programs\ModVault\Uninstall ModVault.exe</code>. All binaries and caches are completely removed.
+                  </div>
+                </div>
+                <div class="p-2.5 rounded bg-vault-surfaceLow border border-vault-border/50 flex items-center justify-between">
+                  <span class="text-vault-silver">Security Policy & Responsible Disclosure:</span>
+                  <a href="https://github.com/OneSaksham/modvault/blob/main/SECURITY.md" target="_blank" rel="noopener noreferrer" class="text-vault-emerald hover:underline font-semibold flex items-center gap-1">
+                    SECURITY.md <span class="material-symbols-outlined text-[13px]">open_in_new</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
       </div>
@@ -1102,7 +1282,7 @@
         </h2>
 
         <p class="text-base sm:text-lg text-vault-silver mt-4 leading-relaxed max-w-2xl mx-auto">
-          Join thousands of players who launched with zero crashes this week. Free, open source, lightweight, and engineered by Saksham.
+          Engineered for Minecraft players seeking seamless mod management and crash-free launches. Free, open source, lightweight, and engineered by Saksham.
         </p>
 
         <!-- Primary Action Download Button -->
@@ -1112,6 +1292,74 @@
             <span class="material-symbols-outlined text-[26px]">download</span>
             <span>Download ModVault for Windows (v1.0.0 Setup .exe)</span>
           </a>
+        </div>
+
+        <!-- Release Metadata Summary Card -->
+        <div class="mt-8 bg-vault-surfaceCard border border-vault-border rounded-xl p-5 max-w-2xl mx-auto text-left font-mono text-xs">
+          <div class="flex justify-between items-center border-b border-vault-border pb-3 mb-3">
+            <span class="text-vault-highlight font-bold flex items-center gap-2">
+              <span class="material-symbols-outlined text-vault-emerald text-[18px]">inventory_2</span>
+              <span>Official Windows Release Artifact</span>
+            </span>
+            <span class="text-vault-emerald font-semibold bg-vault-emerald/10 border border-vault-emerald/30 px-2 py-0.5 rounded text-[11px]">
+              v1.0.0 STABLE
+            </span>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-vault-silver mb-4">
+            <div>
+              <span class="text-vault-muted text-[10px] block">RELEASE DATE</span>
+              <span class="text-vault-highlight font-semibold">October 30, 2026</span>
+            </div>
+            <div>
+              <span class="text-vault-muted text-[10px] block">FILE SIZE</span>
+              <span class="text-vault-highlight font-semibold">92.67 MB</span>
+            </div>
+            <div>
+              <span class="text-vault-muted text-[10px] block">OS TARGET</span>
+              <span class="text-vault-highlight font-semibold">Windows 10 / 11 64-bit</span>
+            </div>
+            <div>
+              <span class="text-vault-muted text-[10px] block">INSTALLER</span>
+              <span class="text-vault-highlight font-semibold">NSIS (.exe)</span>
+            </div>
+          </div>
+
+          <!-- SHA-256 Checksum Display with 1-Click Copy -->
+          <div class="bg-vault-void p-3 rounded border border-vault-border space-y-2">
+            <div class="flex items-center justify-between text-vault-muted">
+              <span>SHA-256 VERIFIED CHECKSUM:</span>
+              <button type="button" onclick="copyChecksum('hash')" id="copyHashBtn" class="text-vault-emerald hover:text-vault-emeraldBright font-semibold flex items-center gap-1 transition-colors">
+                <span class="material-symbols-outlined text-[14px]">content_copy</span>
+                <span id="copyHashText">Copy SHA-256</span>
+              </button>
+            </div>
+            <div class="text-vault-cyan font-bold break-all select-all text-[11px]" id="sha256HashDisplay">
+              C15D74FEEF1077F2B1760616898A4D528C99839F04E1C456FC7F2D80375C8142
+            </div>
+          </div>
+
+          <!-- PowerShell Verification Snippet -->
+          <div class="mt-3 bg-vault-surfaceLow p-3 rounded border border-vault-border/60 flex items-center justify-between gap-2">
+            <div class="text-[11px] text-vault-silver truncate select-all">
+              <span class="text-vault-muted">PowerShell: </span>
+              <code class="text-vault-highlight">Get-FileHash .\ModVault-Setup-1.0.0.exe -Algorithm SHA256</code>
+            </div>
+            <button type="button" onclick="copyChecksum('cmd')" id="copyCmdBtn" class="shrink-0 text-vault-silver hover:text-vault-highlight transition-colors" title="Copy verification command">
+              <span class="material-symbols-outlined text-[15px]">content_copy</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Transparent Windows SmartScreen Guidance -->
+        <div class="mt-6 max-w-2xl mx-auto p-4 rounded-xl bg-vault-surfaceLow border border-vault-border text-left font-mono text-xs space-y-1.5">
+          <div class="flex items-center gap-2 text-vault-amber font-bold">
+            <span class="material-symbols-outlined text-[18px]">info</span>
+            <span>Windows SmartScreen Notice</span>
+          </div>
+          <p class="text-vault-silver text-[11px] leading-relaxed">
+            ModVault is a 100% free, community-built open-source project and does not carry an expensive corporate code-signing certificate. Windows SmartScreen may show <em>"Windows protected your PC"</em> on initial launch. Click <strong>"More info"</strong> and then <strong>"Run anyway"</strong>. You can verify the full source code on GitHub and compare the SHA-256 checksum above.
+          </p>
         </div>
 
         <!-- Realtime download telemetry badge -->
@@ -1130,7 +1378,7 @@
         <div class="mt-5 font-mono text-xs text-vault-silver flex flex-wrap justify-center items-center gap-4">
           <span>SHA-256 VERIFIED</span>
           <span class="text-vault-muted">•</span>
-          <span>SIZE: ~92.6 MB</span>
+          <span>SIZE: ~92.67 MB</span>
           <span class="text-vault-muted">•</span>
           <span class="text-vault-emerald font-semibold">100% FREE & OPEN SOURCE (MIT)</span>
         </div>
@@ -1181,6 +1429,24 @@
 
   <!-- INTERACTIVE CLIENT SCRIPTS -->
   <script>
+    function copyChecksum(type) {
+      if (type === 'hash') {
+        const hash = document.getElementById('sha256HashDisplay').innerText.trim();
+        navigator.clipboard.writeText(hash).then(() => {
+          const textEl = document.getElementById('copyHashText');
+          if (textEl) {
+            textEl.textContent = 'COPIED!';
+            setTimeout(() => { textEl.textContent = 'Copy SHA-256'; }, 2000);
+          }
+        });
+      } else if (type === 'cmd') {
+        const cmd = 'Get-FileHash .\\ModVault-Setup-1.0.0.exe -Algorithm SHA256';
+        navigator.clipboard.writeText(cmd).then(() => {
+          alert('Copied PowerShell verification command to clipboard.');
+        });
+      }
+    }
+
     // Launcher Data Dictionary
     const launcherData = {
       'tl-legacy': {
