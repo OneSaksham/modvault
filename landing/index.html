@@ -157,8 +157,13 @@
       <span class="text-vault-muted hidden md:inline">|</span>
       <span class="hidden md:inline text-vault-cyan">UNIVERSAL LAUNCHER AUTO-DISCOVERY</span>
     </div>
-    <div class="flex items-center gap-4 shrink-0">
-      <span class="text-vault-silver hover:text-vault-emerald transition-colors font-mono text-xs">
+    <div class="flex items-center gap-3 shrink-0 text-xs font-mono">
+      <a href="https://somsubhra.github.io/github-release-stats/?username=OneSaksham&repository=modvault" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 text-vault-silver hover:text-vault-emerald transition-colors" title="Verified GitHub Releases">
+        <span class="w-1.5 h-1.5 rounded-full bg-vault-emerald animate-pulse"></span>
+        <span>VERIFIED DOWNLOADS: <strong class="text-vault-emerald font-bold live-download-count">5</strong></span>
+      </a>
+      <span class="text-vault-muted hidden sm:inline">|</span>
+      <span class="text-vault-silver hover:text-vault-emerald transition-colors">
         V1.0.0 STABLE
       </span>
       <div class="flex items-center gap-1.5">
@@ -169,22 +174,22 @@
     </div>
   </aside>
 
-  <!-- STICKY HEADER NAVIGATION -->
+  <!-- STICKY HEADER NAVIGATION (Stitch Design System Layout) -->
   <header class="sticky top-0 z-50 glass-nav border-b border-vault-border transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4 lg:gap-8 w-full">
       
-      <!-- Brand Logo -->
-      <a href="#" class="flex items-center gap-3 group">
-        <img src="./logo.svg" alt="ModVault Shield Logo" class="w-9 h-9 object-contain drop-shadow-[0_0_12px_rgba(16,185,129,0.4)] group-hover:scale-105 transition-transform">
+      <!-- Brand Logo Cluster -->
+      <a href="#" class="flex items-center gap-3 shrink-0 group">
+        <img src="./logo.svg" alt="ModVault Shield Logo" class="w-8 h-8 sm:w-9 sm:h-9 object-contain drop-shadow-[0_0_12px_rgba(16,185,129,0.35)] group-hover:scale-105 transition-transform">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-lg text-vault-highlight tracking-tight">ModVault</span>
-          <span class="bg-vault-secondary border border-vault-border text-vault-emerald font-mono text-xs px-2 py-0.5 rounded">v1.0.0</span>
-          <span class="hidden lg:inline-flex bg-vault-emerald/10 text-vault-emerald border border-vault-emerald/30 font-mono text-xs px-2 py-0.5 rounded tracking-wide">DESKTOP ENGINE</span>
+          <span class="font-bold text-lg text-vault-highlight tracking-tight group-hover:text-vault-emerald transition-colors">ModVault</span>
+          <span class="bg-vault-surfaceCard border border-vault-border text-vault-emerald font-mono text-[11px] px-2 py-0.5 rounded">v1.0.0</span>
+          <span class="hidden 2xl:inline-flex bg-vault-emerald/10 text-vault-emerald border border-vault-emerald/30 font-mono text-[10px] px-2 py-0.5 rounded tracking-wider uppercase">CLIENT ENGINE</span>
         </div>
       </a>
 
-      <!-- Desktop Nav Links -->
-      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <!-- Desktop Nav Links (Spaced evenly with zero collision) -->
+      <nav class="hidden xl:flex items-center gap-6 text-sm font-medium">
         <a href="#comparison" class="text-vault-silver hover:text-vault-emerald transition-colors">Architecture</a>
         <a href="#benchmarks" class="text-vault-silver hover:text-vault-emerald transition-colors">Benchmarks</a>
         <a href="#launchers" class="text-vault-silver hover:text-vault-emerald transition-colors">Launchers</a>
@@ -192,19 +197,19 @@
         <a href="#creator" class="text-vault-silver hover:text-vault-emerald transition-colors">Creator</a>
         <a href="#faq" class="text-vault-silver hover:text-vault-emerald transition-colors">FAQ</a>
         
-        <!-- SEO Pages Dropdown / Pill -->
+        <!-- Guides Dropdown with Stitch Pill Styling -->
         <div class="relative group">
-          <button class="flex items-center gap-1 text-vault-cyan hover:text-vault-cyanBright transition-colors font-medium">
+          <button type="button" class="flex items-center gap-1 text-vault-cyan hover:text-vault-cyanBright transition-colors font-medium">
             <span>Guides</span>
-            <span class="material-symbols-outlined text-[16px]">expand_more</span>
+            <span class="material-symbols-outlined text-[16px] group-hover:rotate-180 transition-transform duration-200">expand_more</span>
           </button>
-          <div class="absolute left-0 mt-2 w-56 bg-vault-surfaceCard border border-vault-border rounded-lg shadow-2xl p-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-150 z-50">
-            <a href="./tlauncher-mod-installer.html" class="block px-3 py-2 rounded hover:bg-vault-surface text-xs text-vault-highlight hover:text-vault-emerald transition-colors">
-              <span class="font-semibold block">TLauncher Mod Guide</span>
+          <div class="absolute left-1/2 -translate-x-1/2 mt-2 w-60 bg-vault-surfaceCard/95 backdrop-blur-xl border border-vault-border rounded-xl shadow-2xl p-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-50">
+            <a href="./tlauncher-mod-installer" class="block px-3 py-2.5 rounded-lg hover:bg-vault-surface text-xs text-vault-highlight hover:text-vault-emerald transition-all">
+              <span class="font-semibold block text-vault-highlight">TLauncher Mod Guide</span>
               <span class="text-vault-muted text-[11px]">Fix exit code 1 & auto-detect paths</span>
             </a>
-            <a href="./fps-booster-minecraft.html" class="block px-3 py-2 rounded hover:bg-vault-surface text-xs text-vault-highlight hover:text-vault-cyan transition-colors mt-1">
-              <span class="font-semibold block">FPS Booster Guide</span>
+            <a href="./fps-booster-minecraft" class="block px-3 py-2.5 rounded-lg hover:bg-vault-surface text-xs text-vault-highlight hover:text-vault-cyan transition-all mt-1">
+              <span class="font-semibold block text-vault-highlight">FPS Booster Guide</span>
               <span class="text-vault-muted text-[11px]">+338% uplift for Low-End PCs</span>
             </a>
           </div>
@@ -212,28 +217,56 @@
       </nav>
 
       <!-- Action Cluster -->
-      <div class="flex items-center gap-3">
-        <!-- Live Downloads Badge -->
-        <a href="https://somsubhra.github.io/github-release-stats/?username=OneSaksham&repository=modvault" target="_blank" rel="noopener noreferrer" title="Live GitHub Release Downloads"
-           class="hidden md:inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-vault-surfaceCard/90 hover:bg-vault-surface border border-vault-border rounded text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
-          <span class="w-2 h-2 rounded-full bg-vault-emerald animate-pulse"></span>
+      <div class="flex items-center gap-2.5 sm:gap-3 shrink-0">
+        <!-- Live Downloads Badge (Visible on lg+) -->
+        <a href="https://somsubhra.github.io/github-release-stats/?username=OneSaksham&repository=modvault" target="_blank" rel="noopener noreferrer" title="Live Verified GitHub Release Downloads"
+           class="hidden lg:inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded-lg text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
+          <span class="w-1.5 h-1.5 rounded-full bg-vault-emerald animate-pulse"></span>
           <span class="text-vault-emerald font-semibold live-download-count">5</span>
-          <span class="text-vault-muted">downloads</span>
+          <span class="text-vault-muted text-[11px]">downloads</span>
         </a>
 
-        <!-- GitHub Star Badge -->
+        <!-- GitHub Creator Badge -->
         <a href="https://github.com/OneSaksham" target="_blank" rel="noopener noreferrer" 
-           class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
+           class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border rounded-lg text-xs font-mono text-vault-silver hover:text-vault-highlight transition-all">
           <span class="material-symbols-outlined text-[15px] text-vault-emerald">code</span>
           <span>Saksham</span>
-          <span class="bg-vault-base px-1.5 py-0.5 rounded text-vault-emerald border border-vault-border">GitHub</span>
+          <span class="bg-vault-void px-1.5 py-0.5 rounded text-vault-emerald border border-vault-border text-[10px]">GitHub</span>
         </a>
 
-        <!-- Download Action -->
+        <!-- Download Action Button -->
         <a href="#download" 
-           class="bg-vault-emerald hover:bg-vault-emeraldBright text-vault-void font-bold text-xs sm:text-sm px-4 py-2 rounded flex items-center gap-2 shadow-glow-emerald active:scale-95 transition-all">
+           class="bg-vault-emerald hover:bg-vault-emeraldBright text-vault-void font-bold text-xs sm:text-sm px-3.5 sm:px-4 py-2 rounded-lg flex items-center gap-1.5 sm:gap-2 shadow-glow-emerald active:scale-95 transition-all">
           <span class="material-symbols-outlined text-[18px]">download</span>
-          <span>Download .EXE</span>
+          <span>Download <span class="hidden sm:inline">.EXE</span></span>
+        </a>
+
+        <!-- Mobile / Tablet Hamburger Toggle Button -->
+        <button type="button" id="mobileMenuBtn" onclick="toggleMobileMenu()" class="xl:hidden p-2 rounded-lg bg-vault-surfaceCard hover:bg-vault-surface border border-vault-border text-vault-silver hover:text-vault-highlight transition-all" aria-label="Toggle Navigation Menu">
+          <span class="material-symbols-outlined text-[20px]" id="mobileMenuIcon">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden xl:hidden bg-vault-base/98 backdrop-blur-2xl border-b border-vault-border px-4 py-5 space-y-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs font-medium">
+        <a href="#comparison" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Architecture</a>
+        <a href="#benchmarks" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Benchmarks</a>
+        <a href="#launchers" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Launchers</a>
+        <a href="#presets" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Packs</a>
+        <a href="#creator" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">Creator</a>
+        <a href="#faq" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg bg-vault-surfaceCard text-vault-silver hover:text-vault-emerald hover:bg-vault-surface transition-all text-center">FAQ</a>
+      </div>
+      <div class="pt-3 border-t border-vault-border space-y-2">
+        <div class="text-[11px] font-mono text-vault-muted uppercase tracking-wider px-1">Dedicated Guides</div>
+        <a href="./tlauncher-mod-installer" class="flex items-center justify-between px-3 py-2.5 rounded-lg bg-vault-surfaceCard text-vault-highlight hover:text-vault-emerald transition-all text-xs">
+          <span class="font-semibold">TLauncher Mod Guide</span>
+          <span class="material-symbols-outlined text-[16px] text-vault-emerald">arrow_forward</span>
+        </a>
+        <a href="./fps-booster-minecraft" class="flex items-center justify-between px-3 py-2.5 rounded-lg bg-vault-surfaceCard text-vault-highlight hover:text-vault-cyan transition-all text-xs">
+          <span class="font-semibold">FPS Booster Guide (+338%)</span>
+          <span class="material-symbols-outlined text-[16px] text-vault-cyan">arrow_forward</span>
         </a>
       </div>
     </div>
@@ -613,7 +646,7 @@
 
         <!-- Read in-depth guide link -->
         <div class="mt-10 text-center">
-          <a href="./fps-booster-minecraft.html" class="inline-flex items-center gap-2 text-sm text-vault-cyan hover:text-vault-cyanBright font-semibold underline underline-offset-4">
+          <a href="./fps-booster-minecraft" class="inline-flex items-center gap-2 text-sm text-vault-cyan hover:text-vault-cyanBright font-semibold underline underline-offset-4">
             <span>Read Complete FPS Optimization & Hardware Benchmark Guide</span>
             <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
           </a>
@@ -729,7 +762,7 @@
 
         <!-- Link to TLauncher SEO Guide -->
         <div class="mt-8 text-center">
-          <a href="./tlauncher-mod-installer.html" class="inline-flex items-center gap-2 text-sm text-vault-emerald hover:text-vault-emeraldBright font-semibold underline underline-offset-4">
+          <a href="./tlauncher-mod-installer" class="inline-flex items-center gap-2 text-sm text-vault-emerald hover:text-vault-emeraldBright font-semibold underline underline-offset-4">
             <span>Read Complete TLauncher & TL Legacy 1-Click Setup Guide</span>
             <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
           </a>
@@ -1134,8 +1167,8 @@
 
       <!-- Footer Navigation Links -->
       <div class="flex flex-wrap justify-center md:justify-end items-center gap-x-6 gap-y-2 text-xs font-mono">
-        <a href="./tlauncher-mod-installer.html" class="text-vault-cyan hover:text-vault-cyanBright transition-colors">TLauncher Mod Guide</a>
-        <a href="./fps-booster-minecraft.html" class="text-vault-emerald hover:text-vault-emeraldBright transition-colors">FPS Booster Guide</a>
+        <a href="./tlauncher-mod-installer" class="text-vault-cyan hover:text-vault-cyanBright transition-colors">TLauncher Mod Guide</a>
+        <a href="./fps-booster-minecraft" class="text-vault-emerald hover:text-vault-emeraldBright transition-colors">FPS Booster Guide</a>
         <a href="#benchmarks" class="hover:text-vault-highlight transition-colors">Benchmarks</a>
         <a href="#launchers" class="hover:text-vault-highlight transition-colors">Launchers</a>
         <a href="https://somsubhra.github.io/github-release-stats/?username=OneSaksham&repository=modvault" target="_blank" rel="noopener noreferrer" class="text-vault-emerald hover:underline transition-colors">Download Analytics</a>
@@ -1295,6 +1328,21 @@
           });
         });
       });
+    }
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const icon = document.getElementById('mobileMenuIcon');
+      if (!menu) return;
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        if (icon) icon.textContent = 'close';
+      } else {
+        menu.classList.add('hidden');
+        if (icon) icon.textContent = 'menu';
+      }
     }
 
     if (document.readyState === 'loading') {
